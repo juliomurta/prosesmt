@@ -1,0 +1,14 @@
+C:\Users\JULIOMURTA\Documents\Visual Studio 2017\Projects\Prosesmt.Api\Prosesmt.Api\bin\Debug\netcoreapp2.1\Prosesmt.Api.deps.json
+C:\Users\JULIOMURTA\Documents\Visual Studio 2017\Projects\Prosesmt.Api\Prosesmt.Api\bin\Debug\netcoreapp2.1\Prosesmt.Api.runtimeconfig.json
+C:\Users\JULIOMURTA\Documents\Visual Studio 2017\Projects\Prosesmt.Api\Prosesmt.Api\bin\Debug\netcoreapp2.1\Prosesmt.Api.runtimeconfig.dev.json
+C:\Users\JULIOMURTA\Documents\Visual Studio 2017\Projects\Prosesmt.Api\Prosesmt.Api\bin\Debug\netcoreapp2.1\Prosesmt.Api.dll
+C:\Users\JULIOMURTA\Documents\Visual Studio 2017\Projects\Prosesmt.Api\Prosesmt.Api\bin\Debug\netcoreapp2.1\Prosesmt.Api.pdb
+C:\Users\JULIOMURTA\Documents\Visual Studio 2017\Projects\Prosesmt.Api\Prosesmt.Api\obj\Debug\netcoreapp2.1\Prosesmt.Api.csprojAssemblyReference.cache
+C:\Users\JULIOMURTA\Documents\Visual Studio 2017\Projects\Prosesmt.Api\Prosesmt.Api\obj\Debug\netcoreapp2.1\Prosesmt.Api.csproj.CoreCompileInputs.cache
+C:\Users\JULIOMURTA\Documents\Visual Studio 2017\Projects\Prosesmt.Api\Prosesmt.Api\obj\Debug\netcoreapp2.1\Prosesmt.Api.RazorAssemblyInfo.cache
+C:\Users\JULIOMURTA\Documents\Visual Studio 2017\Projects\Prosesmt.Api\Prosesmt.Api\obj\Debug\netcoreapp2.1\Prosesmt.Api.RazorAssemblyInfo.cs
+C:\Users\JULIOMURTA\Documents\Visual Studio 2017\Projects\Prosesmt.Api\Prosesmt.Api\obj\Debug\netcoreapp2.1\Prosesmt.Api.AssemblyInfoInputs.cache
+C:\Users\JULIOMURTA\Documents\Visual Studio 2017\Projects\Prosesmt.Api\Prosesmt.Api\obj\Debug\netcoreapp2.1\Prosesmt.Api.AssemblyInfo.cs
+C:\Users\JULIOMURTA\Documents\Visual Studio 2017\Projects\Prosesmt.Api\Prosesmt.Api\obj\Debug\netcoreapp2.1\Prosesmt.Api.RazorTargetAssemblyInfo.cache
+C:\Users\JULIOMURTA\Documents\Visual Studio 2017\Projects\Prosesmt.Api\Prosesmt.Api\obj\Debug\netcoreapp2.1\Prosesmt.Api.dll
+C:\Users\JULIOMURTA\Documents\Visual Studio 2017\Projects\Prosesmt.Api\Prosesmt.Api\obj\Debug\netcoreapp2.1\Prosesmt.Api.pdb

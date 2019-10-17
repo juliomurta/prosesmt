@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Tela Inicial - Prosesmt</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href="css/jquery.dataTables.min.css">
+    <script src="js/jquery-3.3.1.js"></script>
+    
+</head>
+<body>
+        <table class="display tabela-clientes-dados" style="width:100%">
+                <thead>
+                    <tr>
+                        <th>CNPJ/CPF</th>
+                        <th>Cliente</th>
+                        <th>Telefone</th>
+                        <th>CEP</th>
+                        <th>Logradouro</th>
+                        <th>Cidades/UF</th>
+                    </tr>
+                </thead>
+                
+                <tfoot>
+                    <tr>
+                        <th>CNPJ/CPF</th>
+                        <th>Cliente</th>
+                        <th>Telefone</th>
+                        <th>CEP</th>
+                        <th>Logradouro</th>
+                        <th>Cidades/UF</th>
+                    </tr>
+                </tfoot>
+            </table>
+    <script src="js/jquery.dataTables.min.js"></script>        
+    <script>
+        $.extend( $.fn.dataTable.defaults, {
+            searching: false,
+            ordering:  false
+        } );
+        $(document).ready( function () {
+
+            $.ajax({
+                url: "https://localhost:44331/api/clientes",
+                username: 'julio',
+                password: '123456',             
+                cache: false,                   
+                success: function(data){    
+                    var dataSet = [];
+                    for(var i = 0; i < data.clientes.length; i++){
+                        var linha = data.clientes[i];
+
+                        var cliente = [
+                            linha.cnpjCpf,
+                            linha.razaoSocial,
+                            linha.telefone,
+                            linha.cep,
+                            linha.logradouro,
+                            linha.cidade + "/" + linha.uf
+                       ];
+
+                        dataSet.push(cliente);
+                    }
+
+                    $('.tabela-clientes-dados').DataTable({
+                        data: dataSet,
+                        language: {             
+                            lengthMenu:    "Exibindo _MENU_ registros",
+                            info:           "Exibindo de _START_ à _END_ de _TOTAL_ elementos",
+                            paginate: {
+                                first:      "Primeiro",
+                                previous:   "Anterior",
+                                next:       "Próximo",
+                                last:       "Último"
+                            }                            
+                        },
+                        columns:[
+                            { title: 'CNPJ/CPF' },
+                            { title: 'Cliente' },
+                            { title: 'Telefone' },
+                            { title: 'CEP' },
+                            { title: 'Logradouro' },
+                            { title: 'Cidades/UF' }
+                        ]
+                    });
+                }
+            });
+        } );
+    </script>
+</body>
+</html>
